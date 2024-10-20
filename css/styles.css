@@ -30,6 +30,7 @@
 .header__item {
     background-color: rgba(255, 136, 0, 0.493);
     padding: .6rem;
+    font-family: "Nunito", sans-serif !important;   
     border-radius: 25px;
 }
 
@@ -37,14 +38,19 @@
 
 /* Main */
 
-.main__principal {
+.main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.954), rgba(0, 0, 0, 0.821));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     align-content: center;
-    
+}
+
+.main__principal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
 }
 
 .card-img-overlay {
