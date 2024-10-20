@@ -9,6 +9,7 @@
 .header {
     display: flex;
     align-items: center;
+    z-index: 999;
 }
 
 .header__navegacion {
@@ -53,11 +54,21 @@
     padding-top: 4rem;
 }
 
+.main__canciones {
+    justify-content: center;
+}
+
+.contenido__img {
+    width: 3rem;
+    height: 3rem;
+}
+
 .card-img-overlay {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)) !important;
 }
 
 .card {
+    background: transparent !important;
     width: 90% !important;
     margin: auto;
     border-radius: 25px;
