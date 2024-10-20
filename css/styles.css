@@ -47,13 +47,27 @@
     
 }
 
-.main__contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 15px;
-    gap: 15px;
+.card-img-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)) !important;
 }
+
+.card {
+    width: 90% !important;
+    margin: auto;
+    border-radius: 25px;
+    border-color: black !important;
+}
+
+.card-albums {
+    font-weight: 900;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em black;
+    font-size: 2rem !important;
+    color: white !important;
+}
+
+
+
 
 .main__item-btn {
 }

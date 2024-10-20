@@ -8,24 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
+    <header class="header position-fixed w-100 p-2">
         <nav class="header__navegacion">
-
+            <img src="img/logos/arcangel_logo.png" class="header__logo" alt="">
+            <ul class="header__lista">
+                <li><a href="#" class="header__item text-light">MUSICA</a></li>
+                <li><a href="#" class="header__item text-light">ARTISTA</a></li>
+            </ul>
         </nav>
     </header>
     <main class="main">
-        <header class="header position-fixed w-100 p-2">
-
-                <nav class="header__navegacion">
-                    <img src="img/logos/arcangel_logo.png" class="header__logo" alt="">
-                    <ul class="header__lista">
-                        <li><a href="#" class="header__item text-light">MUSICA</a></li>
-                        <li><a href="#" class="header__item text-light">ARTISTA</a></li>
-                    </ul>
-                </nav>
-        </header>
         <section class="main__principal justify-content-center aling-items-center">
-            
+            <div class="card  text-white">
+                <img class="card-img" src="img/albums/index_album.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                  <h5 class="card-title card-albums">Albums</h5>
+                  <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
         </section>
         <aside class="main__navegacion">
             <ul class="main__lista d-flex justify-content-between  py-2 px-3">
