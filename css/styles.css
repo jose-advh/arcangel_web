@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+/* Main */
+
+.main__principal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/arcangel_back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-content: center;
+    
+}
+
+.main__texto {
+    font-weight: 900 !important;
+    font-family: "Dancing Script", cursive !important;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em black;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.main__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 15px;
+}
+
+.main__item-btn {
+}
+
+.main__navegacion {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    bottom: 0%;
+}
+
+
+
+
+
+
+
+
+
