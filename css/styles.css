@@ -17,19 +17,20 @@
 }
 
 
-.header__texto {
-    font-weight: 600 !important;
-    font-size: .7rem;
-    margin: auto;
-    font-family: "Dancing Script", cursive !important;
-    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em black;
-    color: white !important;
+.header__logo {
+    width: 4rem;
 }
 
 .header__lista {
     display: flex; 
     margin: auto;
     gap: 10px;
+}
+
+.header__item {
+    background-color: rgba(255, 136, 0, 0.493);
+    padding: .6rem;
+    border-radius: 25px;
 }
 
 
