@@ -10,7 +10,7 @@
 /* Main */
 
 .main__principal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/arcangel_back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.954), rgba(0, 0, 0, 0.821));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,13 +19,12 @@
     
 }
 
-.main__texto {
-    font-weight: 900 !important;
+.header__texto {
+    font-weight: 600 !important;
+    font-size: 1.1rem;
     font-family: "Dancing Script", cursive !important;
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em black;
-    width: 90%;
-    text-align: center;
-    margin: auto;
+    color: white !important;
 }
 
 .main__contenido {
