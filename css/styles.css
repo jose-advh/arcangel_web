@@ -99,8 +99,15 @@
 }
 
 
+/* Artista.html */
 
-
+.artista__img {
+    top: 11%;
+    right: 0%;
+    left: 0%;
+    width: 90%;
+    border-radius: 15px;
+}
 
 
 

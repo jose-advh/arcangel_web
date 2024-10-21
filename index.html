@@ -12,12 +12,12 @@
         <nav class="header__navegacion">
             <img src="img/logos/arcangel_logo.png" class="header__logo" alt="">
             <ul class="header__lista">
-                <li><a href="#" class="header__item text-light">MUSICA</a></li>
-                <li><a href="#" class="header__item text-light">ARTISTA</a></li>
+                <li><a href="#" class="header__item text-light fw-bold">MUSICA</a></li>
+                <li><a href="#" id="cambiarContenido" class="header__item text-light">ARTISTA</a></li>
             </ul>
         </nav>
     </header>
-    <main class="main">
+    <main class="main" id="main">
         <section class="main__principal">
             <div class="card text-white">
                 <img class="card-img" src="img/albums/index_album.jpg" alt="Card image">
@@ -61,10 +61,11 @@
                 <hr class="bg-light">
               </article>
         </section>
-        <aside class="main__navegacion">
+    </main>
+            <aside class="main__navegacion">
             <ul class="main__lista d-flex justify-content-between  py-2 px-3">
                 <li>
-                    <a href="#" class="main__item-aside d-flex flex-column aling-items-center">
+                    <a href="index.html" class="main__item-aside d-flex flex-column aling-items-center">
                         <img src="img/icons/home_icon.png" class="w-25 m-auto" alt="Icono de una casa">
                     </a>
                 </li>
@@ -80,13 +81,12 @@
                 </li>
             </ul>
         </aside>
-    </main>
     <footer></footer>
 
 
 
 
-
+    <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
